@@ -1,0 +1,37 @@
+# The git configuration ignore file is only the git ignore file used by the internal personnel of the personal project.
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# VScode and editors
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+package-lock.json
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
